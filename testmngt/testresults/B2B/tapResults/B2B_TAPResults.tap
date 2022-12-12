@@ -1,0 +1,42 @@
+TAP version 13
+1..2
+ok 1 - Mode_Logic_B2B > B2B_Tests/Mode_Logic_TestSequence
+    ---
+    Event 1:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_B2B > B2B_Tests/Mode_Logic_TestSequence'
+        Framework Diagnostic: |
+            Test is enabled.
+    Event 2:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_B2B > B2B_Tests/Mode_Logic_TestSequence'
+        Framework Diagnostic: |
+            Test ran to completion.
+    Event 3:
+        Event Name: 'VerificationPassed'
+        Event Location: 'Mode_Logic_B2B > B2B_Tests/Mode_Logic_TestSequence'
+        Framework Diagnostic: |
+            Test passed.
+            --> Simulink Test Manager Results:
+                    Results: 2020-Oct-15 10:40:25/Mode_Logic_B2B/B2B_Tests/Mode_Logic_TestSequence
+    ...
+ok 2 - Mode_Logic_B2B > B2B_Tests/Mode_Logic_ExcelImport
+    ---
+    Event 1:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_B2B > B2B_Tests/Mode_Logic_ExcelImport'
+        Framework Diagnostic: |
+            Test is enabled.
+    Event 2:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_B2B > B2B_Tests/Mode_Logic_ExcelImport'
+        Framework Diagnostic: |
+            Test ran to completion.
+    Event 3:
+        Event Name: 'VerificationPassed'
+        Event Location: 'Mode_Logic_B2B > B2B_Tests/Mode_Logic_ExcelImport'
+        Framework Diagnostic: |
+            Test passed.
+            --> Simulink Test Manager Results:
+                    Results: 2020-Oct-15 10:40:25/Mode_Logic_B2B/B2B_Tests/Mode_Logic_ExcelImport
+    ...

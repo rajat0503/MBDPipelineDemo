@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+   <testsuite errors="0" failures="0" name="Mode_Logic_TC &gt; Mode_Logic_MIL" skipped="0"
+              tests="3"
+              time="50.9932">
+      <testcase classname="Mode_Logic_TC &gt; Mode_Logic_MIL" name="Mode_Logic_TestSequence"
+                time="36.0955"/>
+      <testcase classname="Mode_Logic_TC &gt; Mode_Logic_MIL" name="Mode_Logic_ExcelImport"
+                time="11.118"/>
+      <testcase classname="Mode_Logic_TC &gt; Mode_Logic_MIL" name="Mode_Logic_TestSequence1"
+                time="3.7797"/>
+   </testsuite>
+</testsuites>

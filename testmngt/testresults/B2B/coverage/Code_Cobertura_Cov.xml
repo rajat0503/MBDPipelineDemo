@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage branch-rate="0.80645" branches-covered="31" branches-valid="25" complexity="22"
+          line-rate="NaN"
+          lines-covered="0"
+          lines-valid="0"
+          timestamp="1602758495.316"
+          version="">
+   <sources>
+      <source>C:\Work\Jenkins\MBD_Jenkins\models\</source>
+   </sources>
+   <packages>
+      <package branch-rate="0.80645" complexity="22" line-rate="NaN" name="">
+         <classes>
+            <class branch-rate="0.80645" complexity="22" filename="Mode_Logic_Ex" line-rate="NaN"
+                   name="Mode_Logic_Ex">
+               <methods/>
+               <lines/>
+            </class>
+         </classes>
+      </package>
+   </packages>
+</coverage>

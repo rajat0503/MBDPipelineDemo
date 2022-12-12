@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section name="CoverageInfo">
+   <table>
+      <tr>
+         <td align="center" fontattribute="bold" value="Code" width="350"/>
+         <td align="center" fontattribute="bold" value="Condition" width="350"/>
+         <td align="center" fontattribute="bold" value="Decision" width="350"/>
+         <td align="center" fontattribute="bold" value="MCDC" width="350"/>
+      </tr>
+      <tr>
+         <td align="center" fontattribute="normal" value="Mode_Logic_Ex" width="350"/>
+         <td align="center" fontattribute="normal" value="83.3333" width="350"/>
+         <td align="center" fontattribute="normal" value="89.2857" width="350"/>
+         <td align="center" fontattribute="normal" value="50" width="350"/>
+      </tr>
+   </table>
+</section>

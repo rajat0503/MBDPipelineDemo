@@ -1,0 +1,63 @@
+TAP version 13
+1..3
+ok 1 - Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence
+    ---
+    Event 1:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence'
+        Framework Diagnostic: |
+            Test is enabled.
+    Event 2:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence'
+        Framework Diagnostic: |
+            Test ran to completion.
+    Event 3:
+        Event Name: 'VerificationPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence'
+        Framework Diagnostic: |
+            Test passed.
+            --> Simulink Test Manager Results:
+                    Results: 2021-Jan-19 18:23:15/Mode_Logic_TC/Mode_Logic_MIL/Mode_Logic_TestSequence
+    ...
+ok 2 - Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_ExcelImport
+    ---
+    Event 1:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_ExcelImport'
+        Framework Diagnostic: |
+            Test is enabled.
+    Event 2:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_ExcelImport'
+        Framework Diagnostic: |
+            Test ran to completion.
+    Event 3:
+        Event Name: 'VerificationPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_ExcelImport'
+        Framework Diagnostic: |
+            Test passed.
+            --> Baseline File: C:\Jenkins\workspace\Test_Model_in_Loop\testmngt\testcases\ModelLogic_TestScenario.xlsx
+            --> Simulink Test Manager Results:
+                    Results: 2021-Jan-19 18:23:15/Mode_Logic_TC/Mode_Logic_MIL/Mode_Logic_ExcelImport
+    ...
+ok 3 - Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence1
+    ---
+    Event 1:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence1'
+        Framework Diagnostic: |
+            Test is enabled.
+    Event 2:
+        Event Name: 'AssumptionPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence1'
+        Framework Diagnostic: |
+            Test ran to completion.
+    Event 3:
+        Event Name: 'VerificationPassed'
+        Event Location: 'Mode_Logic_TC > Mode_Logic_MIL/Mode_Logic_TestSequence1'
+        Framework Diagnostic: |
+            Test passed.
+            --> Simulink Test Manager Results:
+                    Results: 2021-Jan-19 18:23:15/Mode_Logic_TC/Mode_Logic_MIL/Mode_Logic_TestSequence1
+    ...

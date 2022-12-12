@@ -1,0 +1,45 @@
+-prog Mode_Logic_Ex
+-verif-version 1.0
+-author rarora
+-lang C-CPP
+-target x86_64
+-align 64
+-long-is-32bits
+-D main=main_rtwec
+-D __restrict__=
+-D MODEL=Mode_Logic_Ex
+-D NUMST=1
+-D NCSTATES=0
+-D HAVESTDIO
+-D MODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0
+-D CLASSIC_INTERFACE=0
+-D ALLOCATIONFCN=0
+-D TID01EQ=0
+-D TERMFCN=1
+-D ONESTEPFCN=1
+-D MAT_FILE=0
+-D MULTI_INSTANCE_CODE=0
+-D INTEGER_CODE=0
+-D MT=0
+-dos
+-misra3 all
+-misra3-agc-mode
+-boolean-types boolean_T
+-main-generator
+-class-analyzer none
+-variables-written-before-loop none
+-variables-written-in-loop custom=Mode_Logic_Ex_U
+-functions-called-before-loop Mode_Logic_Ex_initialize
+-functions-called-in-loop custom=Mode_Logic_Ex_step
+-functions-called-after-loop Mode_Logic_Ex_terminate
+-functions-to-stub rtIsNaN,rtIsInf,rtIsNaNF,rtIsInfF
+-stub-embedded-coder-lookup-table-functions
+-float-rounding-mode to-nearest
+-allow-negative-operand-in-shift
+-signed-integer-overflows warn-with-wrap-around
+-unsigned-integer-overflows allow
+-uncalled-function-checks none
+-check-subnormal allow
+-O2
+-to Software Safety Analysis level 2
+-mbd

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+   <testsuite errors="0" failures="0" name="Mode_Logic_B2B &gt; B2B_Tests" skipped="0" tests="2"
+              time="65.2535">
+      <testcase classname="Mode_Logic_B2B &gt; B2B_Tests" name="Mode_Logic_TestSequence"
+                time="41.801"/>
+      <testcase classname="Mode_Logic_B2B &gt; B2B_Tests" name="Mode_Logic_ExcelImport"
+                time="23.4525"/>
+   </testsuite>
+</testsuites>
